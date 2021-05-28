@@ -1,0 +1,138 @@
+.table-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 50px 0px 70px 0px;
+}
+
+.table-row {
+    display: table-row;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.table-row:hover,
+.table-row:active {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    background-color: #1a1a1a;
+}
+
+.table-row:hover,
+.table-row:active {
+    transform: scale(1.03);
+    background-color: #1a1a1a;
+}
+
+.table-cell {
+    display: table-cell;
+    padding: 15px;
+    height: 30px;
+    border-bottom: solid 1px rgba(63, 63, 63, 0.5)
+}
+
+.table-heading {
+    /* background-color: #e94560; */
+    color: #e94560;
+    display: table-row-group;
+}
+
+.table-heading div {
+    border-bottom: solid 1px #e94560;
+}
+
+.card {
+    background-color: #301b3f;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    color: #00adb5;
+    border-radius: 15px;
+    display: inline-block;
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.493);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.493);
+}
+
+.chart-div {
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: 500px;
+    text-align: center;
+}
+
+.chart-heading {
+    font-size: 20px;
+}
+
+.chart-heading span {
+    color: white;
+}
+
+.charts {
+    margin-top: 20px;
+    padding: 50px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+
+/* Each Chart */
+
+.charts div {
+    margin: 20px 0 20px 0;
+}
+
+.search-bar-div {
+    width: 100%;
+}
+
+.search-bar {
+    border: none;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: solid 1px #ff6363d3;
+    color: #d4d4d4;
+    text-align: center;
+    width: auto;
+    font-size: 15px;
+    font-weight: 400;
+    outline: none;
+}
+
+.loading-div {
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.loading-div div {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+    .loading-div {
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+}

@@ -1,0 +1,105 @@
+.home-div {
+    margin: 30px auto auto auto;
+    /* padding: 15px; */
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.main-title {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.covid-title {
+    color: #46b5d1;
+    letter-spacing: 3px;
+    font-size: 33px;
+    font-weight: 600
+}
+
+.last-update-div {
+    margin: 30px auto 10px auto;
+    color: #f0ece2;
+}
+
+.total-div {
+    width: 100%;
+}
+
+.total-info {
+    width: 100%;
+    margin: 40px auto 20px auto;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.total-info div {
+    width: auto;
+    margin: auto;
+}
+
+.total-info div>div {
+    margin-top: 15px;
+}
+
+.confirmed {
+    color: #ffbb33;
+}
+
+.active {
+    color: rgb(8, 128, 233);
+}
+
+.recovered {
+    color: #00C851
+}
+
+.deaths {
+    color: #ff4444;
+}
+
+.heading {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.number {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 700px) {
+    .main-title {
+        font-size: 25px;
+    }
+    .covid-title {
+        font-size: 28px;
+    }
+    .heading {
+        font-size: 15px;
+    }
+    .number {
+        font-size: 18px;
+    }
+}
