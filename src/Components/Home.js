@@ -45,12 +45,12 @@ const LastUpdate = ({ lastUpdate }) => {
   monthArr[9] = "October";
   monthArr[10] = "November";
   monthArr[11] = "December";
-  let day = date.getUTCDay();
+  let dayofMonth = date.getUTCDate()
   let month = monthArr[date.getUTCMonth()];
   let year = date.getUTCFullYear();
   let time  = date.toLocaleTimeString()
-
-  lastUpdate =  "Last updated on "+day+" "+month+" "+year+" ,"+time+" "
+  
+  lastUpdate =  "Last updated on "+dayofMonth+" "+month+" "+year+" ,"+time+" "
   return <div className="last-update-div">{lastUpdate}</div>;
 };
 
