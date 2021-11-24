@@ -8,7 +8,7 @@ import Loading from "../Components/Loading";
 
 
 // const currentCasesUrl = "https://api.covid19india.org/v4/min/data.min.json"
-const dataUrl = "https://api.covid19india.org/data.json";
+const dataUrl = "https://data.covid19india.org/data.json";
 const stateWiseDataUrl = "https://api.covid19india.org/v4/min/data.min.json"
 class App extends React.Component {
   constructor() {
